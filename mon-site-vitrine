@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mon Site Vitrine</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+
+  <!-- HEADER -->
+
+  <header>
+
+    <nav>
+
+      <h1 class="logo">MonSite</h1>
+
+      <ul class="nav-links">
+
+        <li><a href="#hero">Accueil</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#about">À propos</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+
+      <div class="burger">☰</div>
+
+    </nav>
+
+  </header>
+
+
+
+  <!-- HERO -->
+
+  <section id="hero">
+
+    <div class="hero-content">
+
+      <h2>Bienvenue sur mon site vitrine</h2>
+
+      <p>Un espace simple et moderne pour présenter votre activité.</p>
+
+      <a href="#contact" class="btn">Me contacter</a>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- SERVICES -->
+
+  <section id="services">
+
+    <h2>Nos Services</h2>
+
+    <div class="services-container">
+
+      <div class="card">🌐 <h3>Site Web</h3><p>Création de sites modernes et rapides.</p></div>
+
+      <div class="card">🎨 <h3>Design</h3><p>Des visuels attractifs et sur-mesure.</p></div>
+
+      <div class="card">🚀 <h3>SEO</h3><p>Optimisation pour Google et réseaux sociaux.</p></div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <h2>À propos</h2>
+
+    <p>
+
+      Nous aidons les entreprises et particuliers à se développer en ligne grâce à des solutions modernes, 
+
+      adaptées à leurs besoins.
+
+    </p>
+
+  </section>
+
+
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <form>
+
+      <input type="text" placeholder="Votre nom" required>
+
+      <input type="email" placeholder="Votre email" required>
+
+      <textarea placeholder="Votre message" required></textarea>
+
+      <button type="submit">Envoyer</button>
+
+    </form>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>© 2025 MonSite - Tous droits réservés</p>
+
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
